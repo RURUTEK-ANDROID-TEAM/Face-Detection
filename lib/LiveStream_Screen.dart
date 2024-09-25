@@ -100,7 +100,7 @@ class _LiveStreamScreenState extends State<LiveStreamScreen> {
     return Scaffold(
       backgroundColor: Color(0xFFd4f1f4),
       appBar: AppBar(
-        title: const Text('Live Stream'),
+        title: Center(child: const Text('Live Stream')),
       ),
       body: Padding(
         padding: const EdgeInsets.all(13.0),
